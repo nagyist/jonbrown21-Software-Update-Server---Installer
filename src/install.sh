@@ -10,7 +10,7 @@ read -e OS
 
 if [ "$OS" = "Tiger" ]; then
 
-sudo defaults write /Library/Preferences/com.apple.SoftwareUpdate CatalogURL http://backup.fwwatch.org:8088/index.sucatalog
+sudo defaults write /Library/Preferences/com.apple.SoftwareUpdate CatalogURL http://your.softwareupdateserver.com:8088/index.sucatalog
 
 echo "Install Complete!"
 
@@ -18,7 +18,7 @@ fi
 
 if [ "$OS" = "Leopard" ]; then
 
-sudo defaults write /Library/Preferences/com.apple.SoftwareUpdate CatalogURL http://backup.fwwatch.org:8088/index-leopard.merged-1.sucatalog
+sudo defaults write /Library/Preferences/com.apple.SoftwareUpdate CatalogURL http://your.softwareupdateserver.com:8088/index-leopard.merged-1.sucatalog
 
 echo "Install Complete!"
 
@@ -26,7 +26,7 @@ fi
 
 if [ "$OS" = "Snow" ]; then
 
-sudo defaults write /Library/Preferences/com.apple.SoftwareUpdate CatalogURL http://backup.fwwatch.org:8088/index-leopard-snowleopard.merged-1.sucatalog
+sudo defaults write /Library/Preferences/com.apple.SoftwareUpdate CatalogURL http://your.softwareupdateserver.com:8088/index-leopard-snowleopard.merged-1.sucatalog
 
 echo "Install Complete!"
 
@@ -34,7 +34,7 @@ fi
 
 if [ "$OS" = "Lion" ]; then
 
-sudo defaults write /Library/Preferences/com.apple.SoftwareUpdate CatalogURL http://backup.fwwatch.org:8088/index-lion-snowleopard-leopard.merged-1.sucatalog
+sudo defaults write /Library/Preferences/com.apple.SoftwareUpdate CatalogURL http://your.softwareupdateserver.com:8088/index-lion-snowleopard-leopard.merged-1.sucatalog
 
 echo "Install Complete!"
 
